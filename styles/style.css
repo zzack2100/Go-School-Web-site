@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 1rem;
+  background-image: url(../images/background.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding: 1rem 1.2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 1s ease;
+}
+
+.active {
+  color: yellow;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+main.no_flex {
+  display: block;
+}
+main section {
+  padding: 1rem;
+}
+section.left {
+  flex: 1 1 200px;
+}
+section.left img {
+  width: 60%;
+}
+section.left h3 {
+  margin: 1rem;
+}
+section.left table {
+  margin-top: 1rem;
+}
+section.left table,
+section.left td {
+  padding: 0.25rem;
+}
+
+section.right {
+  flex: 4 1 600px;
+}
+
+section.right h3 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+p {
+  padding: 0.5rem 0rem;
+}
+
+section.right ul {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}

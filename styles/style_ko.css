@@ -1,0 +1,15 @@
+.player h4 {
+  font-size: 1.5rem;
+  color: cornflowerblue;
+}
+
+.player h5 {
+  font-size: 1.5rem;
+  color: rgb(48, 48, 94);
+}
+
+.player {
+  margin: 2rem;
+  border: 2px solid burlywood;
+  padding: 0.5rem;
+}
